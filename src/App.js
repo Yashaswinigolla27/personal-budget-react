@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 import  {
   HashRouter as Router,
@@ -33,7 +34,6 @@ function App() {
           </Route>
         </Switch>
       </div>
-      <HomePage /> 
       <Footer />     
     </Router>
   );
